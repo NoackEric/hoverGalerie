@@ -64,7 +64,7 @@ a{
 } 
 
 
-@media (min-width: 374px){
+@media (min-width: 359px){
     section {
         display: grid;
         grid-template-columns:  1fr;
