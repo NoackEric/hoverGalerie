@@ -2,7 +2,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 400px);
-    gap: 5px;
+    gap:15px;
     width: 80vw;
     background: rgb(103, 98, 98);
     margin: 0 auto;
