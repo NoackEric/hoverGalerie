@@ -72,6 +72,28 @@ a{
         width: 85vw;
         background: rgb(103, 98, 98);
     }
+
+    @media (min-width: 768px){
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:15px;
+            width: 85vw;
+            background: rgb(103, 98, 98);
+        }
+    }
+
+    @media (min-width: 992px){
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 400px);
+            gap:15px;
+            width: 80vw;
+            background: rgb(103, 98, 98);
+            margin: 0 auto;
+        }
+    }
 }
 
 
