@@ -48,7 +48,7 @@ img:hover {
 }
 
 .over:hover .overlay {
-    height: 15%;
+    height: 20%;
     opacity: 1;
     /* transition-delay: 1s; */
 }
